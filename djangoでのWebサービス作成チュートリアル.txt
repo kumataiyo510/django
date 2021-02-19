@@ -1,0 +1,32 @@
+djangoでのWebサービスチュートリアル
+https://tutorial.djangogirls.org/ja/installation/#pythonanywhere
+
+mkdir c:\users\kinta\djangogirls
+python -m venv myvenv
+c:\users\kinta\djangogirls\myvenv/Scripts> activate
+python -m pip install --upgrade pip
+touch c:\users\kinta\djangogirls\requirements.txt
+echo Django~=2.2.4 > c:\users\kinta\djangogirls\requirements.txt
+pip install -r requirements.txt
+
+pythonanywhereの登録
+
+
+django-admin.exe startproject mysite .
+
+
+
+python manage.py migrate
+
+python manage.py runserver
+
+python manage.py startapp blog
+
+
+python manage.py makemigrations blog
+
+python manage.py migrate blog
+
+python manage.py createsuperuser
+
+https://github.com/kumataiyo510/django.git
