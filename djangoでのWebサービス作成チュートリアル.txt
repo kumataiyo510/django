@@ -30,3 +30,5 @@ python manage.py migrate blog
 python manage.py createsuperuser
 
 https://github.com/kumataiyo510/django.git
+
+pip3.6 install -user pythonanywhere
