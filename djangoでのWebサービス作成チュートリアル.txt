@@ -1,3 +1,7 @@
+
+次回は（https://tutorial.djangogirls.org/ja/extend_your_application/）
+
+
 djangoでのWebサービスチュートリアル
 https://tutorial.djangogirls.org/ja/installation/#pythonanywhere
 
@@ -34,4 +38,6 @@ https://github.com/kumataiyo510/django.git
 pip3.6 install -user pythonanywhere
 
 python manage.py shell
+
+
 
